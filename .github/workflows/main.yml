@@ -9,7 +9,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Print Welcome Message
-        run: echo"Welcome to our first GitHub Actions Workflow!"
+        run: echo "Welcome to our first GitHub Actions Workflow!"
       - name: Checkout repo
         uses: actions/checkout@v4
       - name: List repository files
